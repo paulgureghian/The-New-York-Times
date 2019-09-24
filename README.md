@@ -8,4 +8,4 @@ and Luis Puente (https://github.com/mkezmkez).
 
 The Odin Project for more details: https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements.
 
-To see it live go to: https://raw.githack.com/paulgureghian/The_New_York_Times/tree/nytimes. 
+To see it live go to: https://raw.githack.com/paulgureghian/The_New_York_Times/nytimes/index.html.
