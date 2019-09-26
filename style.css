@@ -5,7 +5,7 @@ body {
 
 .top-logos {
 
-
+      display: inline-block;
       font-weight: bold;
 }
 
@@ -16,19 +16,145 @@ body {
 
 .nytimes-logo {
 
-      text-align: center;
-      font-size: 20px;
-}
-.nav-buttons {
+      width: 150px;
+      height: 40px;
 
-      text-decoration-color: white;
+}
+
+.nytimes_logo_link {
+        display: inline-block;
+}
+
+
+
+.button {
+
+      color: white;
       background-color: blue;
 }
 
+.nav-buttons {
+
+      display: inline-block;
+}
+
+.mainimg {
+
+}
+
+.mainimg_caption {
 
 
+}
+
+.mainimg_caption2 {
+
+}
+
+.article-head {
+
+}
+
+.author {
+
+}
+
+.text {
+
+}
+
+.create-account {
+
+}
+
+.unlock {
+
+}
+
+.create_account_login {
+
+}
+
+.title_related {
+
+}
+
+.editors {
+
+}
+
+.editor1 {
+
+}
+
+.theory_of_inflation {
+
+}
+
+.inline_link {
+
+}
+
+.youtube_video {
+
+}
+
+.video_text {
+
+}
+
+.video_caption {
+
+}
+
+.video_caption2 {
+
+}
+
+.image_2 {
+
+}
 
 .title {
 
+}
 
+.caption_2 {
+
+}
+
+.button_bottom_1 {
+
+}
+
+.social_bar {
+
+}
+
+.related_section {
+
+}
+
+.editors_pick {
+
+}
+
+.related_right {
+
+}
+
+.footer {
+
+}
+
+.columns {
+
+}
+
+.corporate_links {
+
+}
+
+.alternate_links {
+  
 }
