@@ -1,171 +1,95 @@
-body {
-
-
-}
+body {}
 
 .top-logos {
-
-      display: inline-block;
-      font-weight: bold;
+  display: inline-block;
+  font-weight: bold;
 }
 
 .icon {
-
-      padding: 10px;
+  padding: 10px;
 }
 
 .nytimes-logo {
-
-      width: 150px;
-      height: 40px;
-
+  width: 150px;
+  height: 40px;
 }
 
 .nytimes_logo_link {
-        display: inline-block;
+  display: inline-block;
 }
 
-
-
 .button {
-
-      color: white;
-      background-color: blue;
+  color: white;
+  background-color: blue;
 }
 
 .nav-buttons {
-
-      display: inline-block;
+  display: inline-block;
 }
 
 h1 {
-      text-align: center;
-      font-style: italic;
-      word-break: break-all; 
-
-      white-space: normal;
-
-
+  text-align: center;
+  font-style: italic;
+  word-break: break-all;
+  white-space: normal;
 }
 
+.mainimg {}
 
-.mainimg {
+.mainimg_caption {}
 
-}
+.mainimg_caption2 {}
 
-.mainimg_caption {
+.article-head {}
 
+.author {}
 
-}
+.text {}
 
-.mainimg_caption2 {
+.create-account {}
 
-}
+.unlock {}
 
-.article-head {
+.create_account_login {}
 
-}
+.title_related {}
 
-.author {
+.editors {}
 
-}
+.editor1 {}
 
-.text {
+.theory_of_inflation {}
 
-}
+.inline_link {}
 
-.create-account {
+.youtube_video {}
 
-}
+.video_text {}
 
-.unlock {
+.video_caption {}
 
-}
+.video_caption2 {}
 
-.create_account_login {
+.image_2 {}
 
-}
+.title {}
 
-.title_related {
+.caption_2 {}
 
-}
+.button_bottom_1 {}
 
-.editors {
+.social_bar {}
 
-}
+.related_section {}
 
-.editor1 {
+.editors_pick {}
 
-}
+.related_right {}
 
-.theory_of_inflation {
+.footer {}
 
-}
+.columns {}
 
-.inline_link {
+.corporate_links {}
 
-}
-
-.youtube_video {
-
-}
-
-.video_text {
-
-}
-
-.video_caption {
-
-}
-
-.video_caption2 {
-
-}
-
-.image_2 {
-
-}
-
-.title {
-
-}
-
-.caption_2 {
-
-}
-
-.button_bottom_1 {
-
-}
-
-.social_bar {
-
-}
-
-.related_section {
-
-}
-
-.editors_pick {
-
-}
-
-.related_right {
-
-}
-
-.footer {
-
-}
-
-.columns {
-
-}
-
-.corporate_links {
-
-}
-
-.alternate_links {
-
-}
+.alternate_links {}
