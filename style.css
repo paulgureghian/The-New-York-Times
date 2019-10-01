@@ -11,6 +11,7 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .sidepicks {
@@ -21,7 +22,7 @@ body {
   width: 180px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 9px;
-  z-index: 1;
+  z-index: 0;
 }
 
 .editors>a {
@@ -156,6 +157,7 @@ article {
   flex-direction: column;
   align-items: center;
   font-family: 'Merriweather', serif;
+  clear: right;
 }
 
 .article-head {
@@ -205,14 +207,14 @@ article {
 .signupside {
   float: right;
   position: absolute;
-  right: 80px;
+  left: 1030px;
   top: 1180px;
   width: 180px;
   font-family: Arial, Helvetica, sans-serif;
   z-index: 1;
 }
 
-.side>button {
+.signupside>button {
   width: 180px;
 }
 
@@ -303,14 +305,13 @@ h5 {
 
 .related_section {
   display: grid;
-  grid-template: 2fr / 1fr / 3fr / 1fr;
-  row-gap: 10px;
-  column-gap: 25px;
+  grid-template: 2fr 1fr / 3fr 1fr;
   margin: 60px 50px 20px 50px;
+  row-gap: 20px;
+  column-gap: 20px;
 }
 
-.related_section>* {
-  background-color: rgba(255, 255, 255, 0.8);
+.related_section> * {
   border-top: 1px solid rgba(0, 0, 0, 0.8);
   padding: 5px;
   font-size: 30px;
@@ -331,6 +332,19 @@ h5 {
   grid-area: 1 / 2 / 3 / 3;
 }
 
+.stories {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column nowrap;
+  max-width: 250px;
+  margin:10px 20px 10px 0;
+}
+
 .list {
   display: flex;
   flex-direction: column;
@@ -343,7 +357,8 @@ h5 {
   padding: 5px 0;
 }
 
-.list>li>a, .reltitle {
+.relatedlink >a, 
+.reltitle {
   text-decoration: none;
   color: #333;
   font-size: 15px;
@@ -352,11 +367,11 @@ h5 {
 }
 
 .editors_pick2 {
-  grid-area: 2 / 1 / 3 / 3;
+  grid-area: 2 / 1 / 3 / 2;
 }
 
 .relimg {
-  width: 290px;
+  width: 260px;
   margin-top: 15px;
 }
 
@@ -368,35 +383,22 @@ h5 {
   margin: 0;
 }
 
-.stories {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-
-.story {
-  display: flex;
-  flex-flow: column wrap;
-  padding: 0 10px;
-}
 
 .story>div>a {
   text-decoration: none;
 }
 
-.story>div {
+.story>* {
   flex-basis: 30%;
 }
 
 .footer {
   border-top: double gray;
+  margin: 0 35px;
 }
 
-.footerlogo {}
-
 .nyt_logo {
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin: 10px 0 15px -10px;
   float: left;
   height: 40px;
 }
@@ -404,28 +406,79 @@ h5 {
 .home_page {
   margin-top: 10px;
   float: right;
-}
-
-.column_one {
-  clear: left;
-}
-
-.column_two {
-
+  color: #326891;
+  font-size: 12px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .columns {
+  clear:left;
   margin-bottom: 30px;
   padding-bottom: 5px;
-  border-bottom: 3px solid grey;
   display: grid;
   grid-template-columns: repeat(6,1fr);
   margin-top: 50px;
 }
 
-.corporate_links {}
+.relatedlink {
+  border-top: 1px solid lightgray;
+}
 
-.alternate_links {}
+.listlink {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  padding:2px;
+  margin: 0px;
+  
+}
+
+.listitem {
+  padding: 0;
+
+}
+.head {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.corporate_links, .alternate_links {
+  list-style: none;
+  text-align: start;
+  padding-left: 0px;
+  line-height: 20px;
+}
+
+.listitem2 > a{
+  font-size: 10px;
+}
+
+.six {
+  border-left: 1px solid lightgray;
+  padding-left: 10px;
+}
+
+.corporate_links {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.bottombar {
+  height: 50px;
+  text-align: center;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  border-top: 1px solid gray;
+
+}
 
 @import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
