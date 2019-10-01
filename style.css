@@ -145,7 +145,7 @@ width:950px;
   display: block;
 }
 
-.caption2 {
+.caption2 , .datepublished{
   color: rgb(148, 148, 148);
   align-self: flex-start;
   font-size:12px;
@@ -322,8 +322,14 @@ color: #333;
 
 .related_with_images {
   grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  flex-flow: row wrap;
 }
 
+.headnoimg {
+  min-width:500px;
+  max-height: 30px;
+}
 .related_right {
   grid-area: 1 / 2 / 3 / 3;
 }
@@ -369,11 +375,21 @@ color: #333;
 .stories {
   display: flex;
   flex-flow: row wrap;
-  max-width: 600px;
+  justify-content: space-between;
 }
 
-.story > a {
+.story {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 0 10px;
+}
+
+.story > div > a {
   text-decoration: none;
+}
+
+.story > div {
+  flex-basis: 30%;
 }
 
 .footer {}
