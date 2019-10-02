@@ -10,7 +10,6 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
-
 }
 
 main {
@@ -20,27 +19,27 @@ main {
   box-sizing: content-box;
 }
 
-@media (max-width:960px) { 
-.sidepicks {
-  display:none;
-  float: right;
-  width: 180px;
-}
+@media (max-width: 960px) {
+  .sidepicks {
+    display: none;
+    float: right;
+    width: 180px;
+  }
 }
 
-@media (min-width:960px) {
-.sidepicks {
-  float: right;
-  position: relative;
-  top: -9800px;
-  width: 180px;
-  left: -40px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 9px;
-  z-index: 0;
-  display: flex;
-  flex-flow: column wrap;
-}
+@media (min-width: 960px) {
+  .sidepicks {
+    float: right;
+    position: relative;
+    top: -9800px;
+    width: 180px;
+    left: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    z-index: 0;
+    display: flex;
+    flex-flow: column wrap;
+  }
 }
 
 .editors > a {
@@ -77,7 +76,7 @@ main {
   position: fixed;
   width: 100%;
   z-index: 2;
-  clear:both;
+  clear: both;
 }
 
 nav {
@@ -182,7 +181,7 @@ article {
   align-items: center;
   font-family: 'Merriweather', serif;
   margin: 0;
-  padding:0;
+  padding: 0;
   overflow: auto;
 }
 
