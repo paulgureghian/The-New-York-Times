@@ -13,10 +13,10 @@ body {
   box-sizing: border-box;
 }
 
-@media (max-width:900px) { 
-.sidepicks {
-  display:none;
-}
+@media (max-width: 900px) {
+  .sidepicks {
+    display: none;
+  }
 }
 
 .sidepicks {
